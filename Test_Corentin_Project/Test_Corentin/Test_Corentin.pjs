@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="12.0" key="{EAD8F4EC-1E76-4161-B9FB-986E4745D193}">
+	<children>
+		<child name="Test_Corentin" key="{9B24AD92-66DD-434C-BDE7-B200BD83EEB1}" type="Project" typeId="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" pluginName="">
+			<data path="Test_Corentin\Test_Corentin.mds" />
+		</child>
+	</children>
+	<folders />
+	<testItems key="{39BC1150-D052-4EBE-97F1-5D3E630E9F97}">
+		<children>
+			<testItem key="{9B24AD92-66DD-434C-BDE7-B200BD83EEB1}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{393EEE1B-0492-4B0A-BEA4-05435D9846A4}">
+		<data Version="3" />
+	</variables>
+	<analysis key="{615F6659-8309-4665-8E0F-56A742D7022E}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+	<extender key="{1A3FC97E-9A66-4716-B166-35D10B4146E0}" />
+</Root>

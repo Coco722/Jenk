@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{BE63BEB7-135E-4D44-AE90-09774E2E4C07}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="36494" objectName="Aliases.Device.Process_android_integ.Layout_NO_ID.Layout_action_bar_root.Layout_content.WebView_auth_webview.Page_integC43IntegCs83ForceComS5.form.panel.panel.panelMotdepasseoubli.linkMotdepasseoubli" objectLeft="191" objectTop="856" objectRight="529" objectBottom="892" clickPointX="344" clickPointY="882" imageFileName="AndroidRecVisualData7.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="8" kind="1" dateTime="42835.6309317824" objectName="" objectLeft="0" objectTop="0" objectRight="720" objectBottom="1280" clickPointX="344" clickPointY="1244" imageFileName="AndroidVisualizer0.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

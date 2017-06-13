@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="folders"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42867.7213804861"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{FDC4B825-42B1-4741-9866-82C402FA60A7}"/>
+				<Prp name="nameofroot" type="S" value="Test_Corentin"/>
+				<Prp name="relpath" type="S" value="12_05_2017_17_18_47_274\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42886.7396307407"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{B2CFFE4F-8141-4120-95FF-5E847E4F4000}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [Test2]"/>
+				<Prp name="relpath" type="S" value="31_05_2017_17_45_04_96\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42887.5966970139"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{0F457C1D-D43A-4936-A538-26C6D7AEA888}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [Test2]"/>
+				<Prp name="relpath" type="S" value="01_06_2017_14_19_14_622\Description.tcLog"/>
+				<Prp name="status" type="I" value="1"/>
+			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42887.6314941319"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{4A17995E-71E3-4D4B-AB87-504033337CCA}"/>
+				<Prp name="nameofroot" type="S" value="Test_Corentin"/>
+				<Prp name="relpath" type="S" value="01_06_2017_15_09_21_93\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0004">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42887.6358135069"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{D64C2044-A198-4C8C-9545-1CF3A1DAA581}"/>
+				<Prp name="nameofroot" type="S" value="Test_Corentin"/>
+				<Prp name="relpath" type="S" value="01_06_2017_15_15_34_287\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0005">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42887.6365668403"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{8617D12D-BFFE-435F-8BDC-656398EFD12C}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [Test2]"/>
+				<Prp name="relpath" type="S" value="01_06_2017_15_16_39_375\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0006">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42887.6377889352"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{6ECF910F-3319-4488-8AB2-C88BB2F212D2}"/>
+				<Prp name="nameofroot" type="S" value="Test_Corentin"/>
+				<Prp name="relpath" type="S" value="01_06_2017_15_18_24_964\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0007">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42892.1758227083"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{A64AF156-B126-49E4-A5DD-EA406DF5DF8F}"/>
+				<Prp name="nameofroot" type="S" value="Test_Corentin"/>
+				<Prp name="relpath" type="S" value="2017-06-06_04_13_11_82\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0008">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42892.1767043056"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{4A9CD1B0-22D2-4923-8358-B22A8F3712D1}"/>
+				<Prp name="nameofroot" type="S" value="Test_Corentin"/>
+				<Prp name="relpath" type="S" value="2017-06-06_04_14_27_253\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0009">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42892.1923278588"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{AEC4EB73-54E0-49B0-A5AF-D7711FE50D69}"/>
+				<Prp name="nameofroot" type="S" value="Test_Corentin"/>
+				<Prp name="relpath" type="S" value="2017-06-06_04_36_57_127\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0010">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42892.4453271644"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{3B97FDB1-730E-41FE-9503-3547AAE82100}"/>
+				<Prp name="nameofroot" type="S" value="Test_Corentin"/>
+				<Prp name="relpath" type="S" value="2017-06-06_10_41_16_267\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0011">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42892.448491412"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{1FC91A6F-D7D6-4238-8CBD-D909DB7013D1}"/>
+				<Prp name="nameofroot" type="S" value="Test_Corentin"/>
+				<Prp name="relpath" type="S" value="2017-06-06_10_45_49_658\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0012">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42892.4490975579"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{0A9887AF-2326-4843-B6B3-FF9D8327472F}"/>
+				<Prp name="nameofroot" type="S" value="Test_Corentin"/>
+				<Prp name="relpath" type="S" value="2017-06-06_10_46_42_29\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0013">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42892.4908830787"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{1E7307D9-47F8-4933-8798-2B9D54FFD114}"/>
+				<Prp name="nameofroot" type="S" value="Test_Corentin"/>
+				<Prp name="relpath" type="S" value="2017-06-06_11_46_52_298\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0014">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42892.5818932292"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{1175C3B0-0EEE-44EC-AC95-5DC3403A6CD1}"/>
+				<Prp name="nameofroot" type="S" value="Test_Corentin"/>
+				<Prp name="relpath" type="S" value="2017-06-06_13_57_55_575\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0015">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42892.5945802546"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{7FFFF7F5-9383-47B0-8C89-9D2EC8B2F177}"/>
+				<Prp name="nameofroot" type="S" value="Test_Corentin"/>
+				<Prp name="relpath" type="S" value="2017-06-06_14_16_11_734\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0016">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42892.5968458681"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{8E5788A8-6A5A-4D2E-BA73-C2EDDFF06021}"/>
+				<Prp name="nameofroot" type="S" value="Test_Corentin"/>
+				<Prp name="relpath" type="S" value="2017-06-06_14_19_27_483\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0017">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42892.6974601273"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{7B488406-33CC-48A3-BF97-3307CE13179D}"/>
+				<Prp name="nameofroot" type="S" value="Test_Corentin"/>
+				<Prp name="relpath" type="S" value="2017-06-06_16_44_20_555\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0018">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42893.7259602315"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{0333F3AB-32CC-432C-B045-674693203C6A}"/>
+				<Prp name="nameofroot" type="S" value="Test_Corentin"/>
+				<Prp name="relpath" type="S" value="2017-06-07_17_25_22_965\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0019">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42894.4571688079"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{30482B64-B19F-4AE2-969B-3A758D3E62D3}"/>
+				<Prp name="nameofroot" type="S" value="Test_Corentin"/>
+				<Prp name="relpath" type="S" value="2017-06-08_10_58_19_385\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0020">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42895.4242683218"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{C55A7D01-3A1F-4E97-9D27-E6B9971BC444}"/>
+				<Prp name="nameofroot" type="S" value="Test_Corentin"/>
+				<Prp name="relpath" type="S" value="2017-06-09_10_10_56_783\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>
